@@ -22,3 +22,11 @@ dvc add data_given/bike_sharing.csv
 git add .
 
 git commit -m "first commit"
+
+git add . &&  git commit -m "update Readme.md"
+
+git remote add origin https://github.com/vikashksingh12/mlops.git
+
+git branch -M main
+
+git push origin main
