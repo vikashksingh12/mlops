@@ -1,0 +1,16 @@
+base:
+  project: bike-sharing-project
+  random_state: 42
+  target_col: TARGET
+
+data_source:
+  s3_source: data_given/bike_sharing.csv
+
+load_data:
+  raw_data_csv: data/raw/bike_sharing.csv
+
+split_data:
+  train_path: data/precessed/train_bike_sharing.csv
+  test_path: data/processed/test_bike_sharing.csv
+  test_size: 0.2
+
